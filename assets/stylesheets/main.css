@@ -62,25 +62,43 @@ header {
 }
 
 #the_video {
-	width: 100%;
+	width: 70%;
 	height: 60%;	
 	background-color: #FFF8DC;
 }
 
+#embedded_video {
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+
 #video_info {
-	width: 100%;
+	width: 70%;
 	height: 8%;
 	background-color: #E9967A;
 }
 
 #channel_info {
-	width: 100%;
+	width: 70%;
 	height: 22%;
 	background-color: #00BFFF;
 }
 
 #comment_section {
-	width: 100%;
+	width: 70%;
 	height: 100%;
 	background-color: #F0FFF0;
+}
+
+#side_bar {
+	height: 190%;
+	float: right;
+	width: 30%;
+	background-color: #E9967A;
+}
+
+.side_video {
+	padding-left: 4%;
+	padding-top: 2%;
 }
