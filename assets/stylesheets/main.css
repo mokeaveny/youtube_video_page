@@ -62,43 +62,107 @@ header {
 }
 
 #the_video {
-	width: 70%;
-	height: 60%;	
-	background-color: #FFF8DC;
+	width: 56.1%;
+	height: 70%;
+	margin-left: 14%;	
 }
 
 #embedded_video {
-	width: 80%;
+	width: 99.5%;
 	height: 100%;
 	float: right;
 }
 
 #video_info {
-	width: 70%;
+	width: 56.1%;
 	height: 8%;
-	background-color: #E9967A;
+	margin-left: 14%;
 }
 
 #channel_info {
-	width: 70%;
-	height: 22%;
-	background-color: #00BFFF;
+	width: 56.1%;
+	height: 12%;
+	margin-left: 14%;
+	border-top: 1px;
+	border-color: gray;
+	border-style: solid;
 }
 
 #comment_section {
-	width: 70%;
+	width: 56.1%;
 	height: 100%;
-	background-color: #F0FFF0;
+	margin-left: 14%;
+	border-top: 1px;
+	border-color: gray;
+	border-style: solid;
 }
 
 #side_bar {
 	height: 190%;
 	float: right;
 	width: 30%;
-	background-color: #E9967A;
 }
 
 .side_video {
 	padding-left: 4%;
 	padding-top: 2%;
+}
+
+.video_thumbnail {
+	width: 60%;
+}
+
+#search_box_container{
+	text-align: center;
+	width: 100%;
+	height: 50%;
+	padding-top: 0.5%;
+}
+
+#search_box{
+	height: 70%;	
+	width: 27.5%;
+	font-size: 20px;
+}
+
+#title_name {
+	font-size: 20px;
+	padding-top: 2%;
+}
+
+#video_views {
+	font-size: 14px;
+	padding-top: 2%;
+}
+
+#channel_name {
+	font-size: 20px;
+}
+
+#account_icon_image {
+	float: left;
+}
+
+#channel_name {
+	padding-top: 1%;
+	padding-left: 6%;
+}
+
+#channel_subscribers {
+	padding-left: 6%;
+}
+
+#video_description {
+	padding-top: 1%;
+	padding-left: 6%;
+}
+
+#show_more_description {
+	padding-top: 0.5%;
+	padding-left: 6%;
+}
+
+#comments_header {
+	padding-top: 1.5%;
+	font-size: 20px;
 }
